@@ -1,0 +1,6 @@
+@use "../customize" as *;
+.more-btn{
+    :hover{
+        background-color: $green !important;
+    }
+}
