@@ -1,0 +1,40 @@
+@use '../customize' as *;
+
+form{
+    width: 350px;
+    // border: 3px $red solid;
+    margin-top: 100px;
+    position: relative;
+    left: 35%;
+    border-radius: 10px;
+    .form{
+        margin-left: 3rem;
+        margin-right: 3.5rem;
+        width: 250px;
+        
+       
+        h2{
+            color:$secondary;
+            font-family: cursive;
+            margin-left: 50px;
+            padding-top: 30px;
+
+           
+        }
+        p{
+            position: absolute;
+        }
+        .error-class{
+            color: $red !important;
+            margin-top: 30px;
+            font-family: cursive;
+        }
+        .user{
+            margin-top: 30px;
+        }
+    }
+    .submit{
+        
+    }
+
+}
