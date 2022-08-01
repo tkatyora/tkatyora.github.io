@@ -31,21 +31,69 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav nav-links">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="../html-pages/service.html">Services</a>
-            <a class="nav-link" href="../html-pages/administration.html"
+            <a class="nav-link" href="../html.pages/index.html">Home</a>
+            <a class="nav-link" href="../html.pages/service.html">Services</a>
+
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="../html.pages/administration.html"
               >Administration</a
             >
-            <a class="nav-link" href="../html-pages/aboutus.html">About us</a>
+            <a class="nav-link" href="../html.pages/blog.html">Blog</a>
+            <a class="nav-link" href="../html.pages/about.html">About us</a>
           </div>
         </div>
       </div>
     </nav>
     <section class="admin-hero">
       <div class="img">
-        <img src="" class="img-fluid" alt="" />
+        <img src="../imagies/pic4.jpg" class="img-fluid" alt="" />
+        <img src="../imagies/pic3.jpg" class="img-fluid img02" alt="" />
       </div>
+      <form class="shadow-lg">
+        <div class="mb-3 form">
+          <h2>LOG IN</h2>
+          <div class="error-class">
+            <p class="error">Wrong Username and Password</p>
+            <p class="error">Wrong password</p>
+            <p class="error">Wrong Username</p>
+          </div>
+
+          <label for="exampleInputEmail1" class="form-label user"
+            >User Name</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            required
+          />
+        </div>
+        <div class="mb-3 form">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            required
+            autocomplete="additional-name"
+          />
+        </div>
+        <div class="mb-3 form-check form">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Remember me next time</label
+          >
+          <div id="emailHelp" class="form-text">
+            Use only on Private Device.
+          </div>
+        </div>
+        <button type="submit" class="btn btn-secondary more-btn">Log In</button>
+      </form>
     </section>
+    <script src="../JS/admin.js"></script>
   </body>
   <footer>
     <div class="footer text-start">

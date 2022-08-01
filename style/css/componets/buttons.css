@@ -10758,8 +10758,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.more-btn :hover {
+.more-btn:hover {
   background-color: #198754 !important;
+}
+
+.more-btn {
+  position: relative;
+  margin-top: 10px;
+  left: -30px;
+  font-size: 1.5em;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=buttons.css.map */

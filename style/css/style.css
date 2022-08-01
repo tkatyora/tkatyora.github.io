@@ -10864,8 +10864,60 @@ body {
   padding-right: 1px;
 }
 
-.more-btn :hover {
+.more-btn:hover {
   background-color: #198754 !important;
+}
+
+.more-btn {
+  position: relative;
+  margin-top: 10px;
+  left: -30px;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.admin-hero .img {
+  position: absolute;
+  margin-left: 18%;
+  width: 350px;
+  height: 400px;
+}
+.admin-hero .img .img02 {
+  position: relative;
+  margin-top: -5px;
+}
+
+form {
+  width: 350px;
+  margin-top: 100px;
+  position: relative;
+  left: 45%;
+  border-radius: 10px;
+}
+form .form {
+  margin-left: 3rem;
+  margin-right: 3.5rem;
+  width: 250px;
+}
+form .form h2 {
+  color: #212529;
+  font-family: cursive;
+  margin-left: 50px;
+  padding-top: 30px;
+}
+form .form p {
+  position: absolute;
+}
+form .form .error-class {
+  color: #dc3545 !important;
+  margin-top: 30px;
+  font-family: cursive;
+}
+form .form .user {
+  margin-top: 30px;
+}
+form .more-btn {
+  margin-left: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

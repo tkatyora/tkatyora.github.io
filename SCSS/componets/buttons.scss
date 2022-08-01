@@ -1,6 +1,14 @@
 @use "../customize" as *;
-.more-btn{
-    :hover{
+.more-btn:hover{
         background-color: $green !important;
     }
-}
+    // login button
+    
+        .more-btn{
+            position: relative;
+             margin-top: 10px;
+             left: -30px;
+             font-size: 1.5em;
+             margin-bottom: 20px;
+        }
+    
