@@ -1,21 +1,40 @@
 @use "../customize" as *;
 
 //navbar
+
 .menu{
-    //  background-color: $gray-900;
+    // background-color: $secondary;
+    color: $primary;
     font-family: cursive;
     font-size: 1.2rem;        
     font-weight: bolder;
+   
      .container-fluid{
         .logo-title{
             margin-left: 7%;
+            font-size: 1.2em;
+            color:$blue ;
+             
+       .sub-logo{
+           position: absolute;
+           color: $red;
+           font-size: .7em;
+             top: 30px;
+      
+   
+       }
             
         }
      }
     
     .navbar-links{
+       .navbar-links:hover{
+        background-color: $blue;
+       }
+        margin-top: 0px;
          .navbar-nav{
           margin-left: 80px;
+          
            
         }
      .nav-link{

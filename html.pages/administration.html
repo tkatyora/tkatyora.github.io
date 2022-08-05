@@ -9,7 +9,7 @@
   <body>
     <!-- the navbar -->
     <nav
-      class="navbar navbar-expand-sm navbar-light bg-light shadow p-3 mb-5 bg-body rounded fixed-top menu"
+      class="navbar navbar-expand-sm navbar-light shadow p-3 mb-5 bg-body rounded fixed-top menu"
     >
       <div class="container-fluid">
         <a href="#" class="navbar-brand logo-title">
@@ -47,51 +47,65 @@
       </div>
     </nav>
     <section class="admin-hero">
-      <div class="img">
-        <img src="../imagies/pic4.jpg" class="img-fluid" alt="" />
-        <img src="../imagies/pic3.jpg" class="img-fluid img02" alt="" />
-      </div>
-      <form class="shadow-lg">
-        <div class="mb-3 form">
-          <h2>LOG IN</h2>
-          <div class="error-class">
-            <p class="error">Wrong Username and Password</p>
-            <p class="error">Wrong password</p>
-            <p class="error">Wrong Username</p>
-          </div>
+      <div class="container-form">
+        <div class="img shadow-lg">
+          <img src="../imagies/pic4.jpg" class="img-fluid" alt="" />
+          <img src="../imagies/pic3.jpg" class="img-fluid img02" alt="" />
+        </div>
+        <form id="form-id" class="shadow-lg" name="form">
+          <div class="mb-3 form">
+            <h2>LOG IN</h2>
+            <div class="error-class">
+              <p class="error">Wrong Username and Password</p>
+              <p class="error">Wrong password</p>
+              <p class="error">Wrong Username</p>
+            </div>
 
-          <label for="exampleInputEmail1" class="form-label user"
-            >User Name</label
-          >
-          <input
-            type="text"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-            required
-          />
-        </div>
-        <div class="mb-3 form">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input
-            type="password"
-            class="form-control"
-            id="exampleInputPassword1"
-            required
-            autocomplete="additional-name"
-          />
-        </div>
-        <div class="mb-3 form-check form">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-          <label class="form-check-label" for="exampleCheck1"
-            >Remember me next time</label
-          >
-          <div id="emailHelp" class="form-text">
-            Use only on Private Device.
+            <label for="exampleInputEmail1" class="form-label user"
+              >User Name</label
+            >
+            <input
+              type="text"
+              name="username"
+              class="form-control input"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              required
+              spellcheck="true"
+            />
           </div>
-        </div>
-        <button type="submit" class="btn btn-secondary more-btn">Log In</button>
-      </form>
+          <div class="mb-3 form">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              name="password"
+              class="form-control input"
+              id="exampleInputPassword1"
+              required
+              autocomplete="additional-name"
+            />
+            <span id="show">show</span>
+          </div>
+          <div class="mb-3 form-check form">
+            <input
+              type="radio"
+              class="form-check-input input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Remember me next time</label
+            >
+            <div id="emailHelp" class="form-text">
+              Use only on Private Device.
+            </div>
+          </div>
+          <button type="submit" class="btn btn-secondary more-btn">
+            Log In
+          </button>
+        </form>
+      </div>
     </section>
     <script src="../JS/admin.js"></script>
   </body>

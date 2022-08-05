@@ -10762,11 +10762,13 @@ textarea.form-control-lg {
   background-color: #198754 !important;
 }
 
-.more-btn {
+.admin-hero .more-btn {
   position: relative;
   margin-top: 10px;
-  left: -30px;
-  font-size: 1.5em;
+  left: -80px;
+  font-size: 1.2em;
+  font-family: cursive;
+  width: 150px;
   margin-bottom: 20px;
 }
 

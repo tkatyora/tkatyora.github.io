@@ -3,25 +3,39 @@
 .admin-hero{
     .img{
         position:absolute;
-        margin-left: 18%;
+        border-radius: 20px;
         width: 350px;
         height: 400px;
        .img02{
         position: relative;
-        margin-top: -5px;
+        margin-top: -15px;
+       
        }
     
+        }
+        .container-form{
+            margin-left: 20%;
+           
+            margin-top: 10%;
+        
+
+        }
+        #show{
+            position: absolute;
+             
+            left: 71%;
+            margin-top: -30px;
+            cursor: pointer;
         }
     }
 
 
 form{
     width: 350px;
-    // border: 3px $red solid;
-    margin-top: 100px;
     position: relative;
-    left: 45%;
+    margin-left: 35%;
     border-radius: 10px;
+    background-color: $primary !important;
     .form{
         margin-left: 3rem;
         margin-right: 3.5rem;
@@ -33,11 +47,22 @@ form{
             font-family: cursive;
             margin-left: 50px;
             padding-top: 30px;
+            font-size: 1.7em;
 
            
         }
         p{
             position: absolute;
+            display: none;
+        }
+        .input{
+            border: 2px #ced4da solid;  
+        }
+        .input:focus{
+            color: #212529;
+            font-style: italic;
+           
+            border: 2px $blue solid;
         }
         .error-class{
             color: $red !important;

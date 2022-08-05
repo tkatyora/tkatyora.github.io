@@ -10759,12 +10759,27 @@ textarea.form-control-lg {
   }
 }
 .menu {
+  color: #fff;
   font-family: cursive;
   font-size: 1.2rem;
   font-weight: bolder;
 }
 .menu .container-fluid .logo-title {
   margin-left: 7%;
+  font-size: 1.2em;
+  color: #0d6efd;
+}
+.menu .container-fluid .logo-title .sub-logo {
+  position: absolute;
+  color: #dc3545;
+  font-size: 0.7em;
+  top: 30px;
+}
+.menu .navbar-links {
+  margin-top: 0px;
+}
+.menu .navbar-links .navbar-links:hover {
+  background-color: #0d6efd;
 }
 .menu .navbar-links .navbar-nav {
   margin-left: 80px;
@@ -10808,7 +10823,7 @@ footer .right-column {
 }
 
 .hero-about {
-  margin-top: 5%;
+  margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -10828,7 +10843,7 @@ body {
 }
 
 .hero-index {
-  margin-top: 0;
+  margin-top: 5%;
 }
 .hero-index .caption {
   position: absolute;
@@ -10868,31 +10883,43 @@ body {
   background-color: #198754 !important;
 }
 
-.more-btn {
+.admin-hero .more-btn {
   position: relative;
   margin-top: 10px;
-  left: -30px;
-  font-size: 1.5em;
+  left: -80px;
+  font-size: 1.2em;
+  font-family: cursive;
+  width: 150px;
   margin-bottom: 20px;
 }
 
 .admin-hero .img {
   position: absolute;
-  margin-left: 18%;
+  border-radius: 20px;
   width: 350px;
   height: 400px;
 }
 .admin-hero .img .img02 {
   position: relative;
-  margin-top: -5px;
+  margin-top: -15px;
+}
+.admin-hero .container-form {
+  margin-left: 20%;
+  margin-top: 10%;
+}
+.admin-hero #show {
+  position: absolute;
+  left: 71%;
+  margin-top: -30px;
+  cursor: pointer;
 }
 
 form {
   width: 350px;
-  margin-top: 100px;
   position: relative;
-  left: 45%;
+  margin-left: 35%;
   border-radius: 10px;
+  background-color: #fff !important;
 }
 form .form {
   margin-left: 3rem;
@@ -10904,9 +10931,19 @@ form .form h2 {
   font-family: cursive;
   margin-left: 50px;
   padding-top: 30px;
+  font-size: 1.7em;
 }
 form .form p {
   position: absolute;
+  display: none;
+}
+form .form .input {
+  border: 2px #ced4da solid;
+}
+form .form .input:focus {
+  color: #212529;
+  font-style: italic;
+  border: 2px #0d6efd solid;
 }
 form .form .error-class {
   color: #dc3545 !important;
