@@ -71,4 +71,30 @@ body{
     }
     
     
+} 
+//services hero
+.service-hero{
+    margin-top: 10%;
+    .coming{
+        position: relative;
+        margin-top: 20%;
+        margin-left: 20%;
+        h1{
+            font-family: cursive;
+            font-size: 3em;
+            color: $blue;
+        }
+    }
+}
+.regester-hero{
+    position: relative;
+    .message{
+        font-family: cursive; 
+        position: relative;
+       
+       h6{
+        color: $red;
+        
+       }
+    }
 }

@@ -20,7 +20,7 @@ form.addEventListener('submit',function(e){
 // validation function
   function validation() {
    if(password.value == 2000 && username.value == 'admin'){
-    window.location = "B:\\tnc-company-projects\\company-website\\react-website\\html.pages\\admin-dashboard.html";
+    window.location = "B:\\TNC-COMPANY-PROJECTS\\company-website\\BOOTSRAP-WEBSITE\\html.pages\\admin-dashboard.html";
    }
    else if(password.value == 2000 && username.value != 'admin')
    {

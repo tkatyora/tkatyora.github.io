@@ -10772,4 +10772,21 @@ textarea.form-control-lg {
   margin-bottom: 20px;
 }
 
+.more-btn {
+  position: relative;
+  margin-top: 10px;
+  left: -80px;
+  font-size: 1.2em;
+  font-family: cursive;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.regester-hero .more {
+  width: 100px;
+}
+.regester-hero .more:hover {
+  background-color: #198754;
+}
+
 /*# sourceMappingURL=buttons.css.map */

@@ -10879,6 +10879,31 @@ body {
   padding-right: 1px;
 }
 
+.service-hero {
+  margin-top: 10%;
+}
+.service-hero .coming {
+  position: relative;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+.service-hero .coming h1 {
+  font-family: cursive;
+  font-size: 3em;
+  color: #0d6efd;
+}
+
+.regester-hero {
+  position: relative;
+}
+.regester-hero .message {
+  font-family: cursive;
+  position: relative;
+}
+.regester-hero .message h6 {
+  color: #dc3545;
+}
+
 .more-btn:hover {
   background-color: #198754 !important;
 }
@@ -10891,6 +10916,23 @@ body {
   font-family: cursive;
   width: 150px;
   margin-bottom: 20px;
+}
+
+.more-btn {
+  position: relative;
+  margin-top: 10px;
+  left: -80px;
+  font-size: 1.2em;
+  font-family: cursive;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.regester-hero .more {
+  width: 100px;
+}
+.regester-hero .more:hover {
+  background-color: #198754;
 }
 
 .admin-hero .img {
@@ -10912,6 +10954,11 @@ body {
   left: 71%;
   margin-top: -30px;
   cursor: pointer;
+}
+.admin-hero .new-account a {
+  text-decoration: none;
+  font-size: 1em;
+  color: #0d6efd;
 }
 
 form {
@@ -10955,6 +11002,19 @@ form .form .user {
 }
 form .more-btn {
   margin-left: 50%;
+}
+
+#form-id {
+  z-index: 0;
+}
+
+.form2 {
+  position: absolute;
+  top: 0%;
+  z-index: 1;
+}
+.form2 .email {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
